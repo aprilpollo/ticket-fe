@@ -1,0 +1,244 @@
+{
+  "developmentColumns": [
+    {
+      "id": 1,
+      "status": "backlog",
+      "color": "#94a3b8"
+    },
+    {
+      "id": 2,
+      "status": "to_do",
+      "color": "#3b82f6"
+    },
+    {
+      "id": 3,
+      "status": "in_progress",
+      "color": "#f59e0b"
+    },
+    {
+      "id": 4,
+      "status": "code_review",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": 5,
+      "status": "testing",
+      "color": "#06b6d4"
+    },
+    {
+      "id": 6,
+      "status": "done",
+      "color": "#10b981"
+    }
+  ],
+  "developmentTasks": [
+    {
+      "id": "tk-01",
+      "columnId": 1,
+      "title": "User Registration System",
+      "description": "Create user registration form with validation and email verification.",
+      "assignees": [
+        {
+          "id": 1,
+          "avatar": "https://i.pravatar.cc/150?img=1",
+          "name": "Alex Johnson"
+        }
+      ],
+      "priority": 1
+    },
+    {
+      "id": "tk-02",
+      "columnId": 1,
+      "title": "Database Migration Scripts",
+      "description": "Write migration scripts for updating user table schema.",
+      "assignees": [
+        {
+          "id": 2,
+          "avatar": "https://i.pravatar.cc/150?img=2",
+          "name": "Sarah Chen"
+        },
+        {
+          "id": 3,
+          "avatar": "https://i.pravatar.cc/150?img=3",
+          "name": "Mike Wilson"
+        }
+      ],
+      "priority": 2
+    },
+    {
+      "id": "tk-03",
+      "columnId": 2,
+      "title": "JWT Authentication",
+      "description": "Implement JWT authentication for secure API access using JSON Web Tokens.",
+      "assignees": [
+        {
+          "id": 1,
+          "avatar": "https://i.pravatar.cc/150?img=1",
+          "name": "Alex Johnson"
+        },
+        {
+          "id": 4,
+          "avatar": "https://i.pravatar.cc/150?img=4",
+          "name": "Emma Davis"
+        }
+      ],
+      "priority": 3
+    },
+    {
+      "id": "tk-04",
+      "columnId": 2,
+      "title": "Payment Gateway Integration",
+      "description": "Integrate Stripe payment gateway for subscription handling.",
+      "assignees": [
+        {
+          "id": 5,
+          "avatar": "https://i.pravatar.cc/150?img=5",
+          "name": "David Lee"
+        }
+      ],
+      "priority": 4
+    },
+    {
+      "id": "tk-05",
+      "columnId": 3,
+      "title": "Critical Security Patch",
+      "description": "Fix critical security vulnerability in authentication system.",
+      "assignees": [
+        {
+          "id": 2,
+          "avatar": "https://i.pravatar.cc/150?img=2",
+          "name": "Sarah Chen"
+        },
+        {
+          "id": 6,
+          "avatar": "https://i.pravatar.cc/150?img=6",
+          "name": "Tom Brown"
+        }
+      ],
+      "priority": 5
+    },
+    {
+      "id": "tk-06",
+      "columnId": 3,
+      "title": "Production Server Down",
+      "description": "Emergency fix for production server outage affecting all users.",
+      "assignees": [
+        {
+          "id": 3,
+          "avatar": "https://i.pravatar.cc/150?img=3",
+          "name": "Mike Wilson"
+        },
+        {
+          "id": 7,
+          "avatar": "https://i.pravatar.cc/150?img=7",
+          "name": "Lisa Garcia"
+        },
+        {
+          "id": 8,
+          "avatar": "https://i.pravatar.cc/150?img=8",
+          "name": "James Miller"
+        }
+      ],
+      "priority": 6
+    },
+    {
+      "id": "tk-07",
+      "columnId": 4,
+      "title": "API Documentation Update",
+      "description": "Update API documentation with new endpoints and examples.",
+      "assignees": [
+        {
+          "id": 4,
+          "avatar": "https://i.pravatar.cc/150?img=4",
+          "name": "Emma Davis"
+        }
+      ],
+      "priority": 1
+    },
+    {
+      "id": "tk-08",
+      "columnId": 4,
+      "title": "Code Refactoring",
+      "description": "Refactor legacy code to improve performance and maintainability.",
+      "assignees": [
+        {
+          "id": 5,
+          "avatar": "https://i.pravatar.cc/150?img=5",
+          "name": "David Lee"
+        },
+        {
+          "id": 1,
+          "avatar": "https://i.pravatar.cc/150?img=1",
+          "name": "Alex Johnson"
+        }
+      ],
+      "priority": 2
+    },
+    {
+      "id": "tk-09",
+      "columnId": 5,
+      "title": "Mobile App Testing",
+      "description": "Comprehensive testing of mobile application on different devices.",
+      "assignees": [
+        {
+          "id": 6,
+          "avatar": "https://i.pravatar.cc/150?img=6",
+          "name": "Tom Brown"
+        }
+      ],
+      "priority": 3
+    },
+    {
+      "id": "tk-10",
+      "columnId": 5,
+      "title": "Performance Testing",
+      "description": "Load testing and performance optimization for high traffic scenarios.",
+      "assignees": [
+        {
+          "id": 7,
+          "avatar": "https://i.pravatar.cc/150?img=7",
+          "name": "Lisa Garcia"
+        },
+        {
+          "id": 8,
+          "avatar": "https://i.pravatar.cc/150?img=8",
+          "name": "James Miller"
+        }
+      ],
+      "priority": 4
+    },
+    {
+      "id": "tk-11",
+      "columnId": 6,
+      "title": "User Profile Feature",
+      "description": "Completed user profile management with avatar upload functionality.",
+      "assignees": [
+        {
+          "id": 2,
+          "avatar": "https://i.pravatar.cc/150?img=2",
+          "name": "Sarah Chen"
+        }
+      ],
+      "priority": 1
+    },
+    {
+      "id": "tk-12",
+      "columnId": 6,
+      "title": "Email Notification System",
+      "description": "Implemented automated email notifications for user activities.",
+      "assignees": [
+        {
+          "id": 3,
+          "avatar": "https://i.pravatar.cc/150?img=3",
+          "name": "Mike Wilson"
+        },
+        {
+          "id": 4,
+          "avatar": "https://i.pravatar.cc/150?img=4",
+          "name": "Emma Davis"
+        }
+      ],
+      "priority": 2
+    }
+  ]
+}
